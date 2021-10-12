@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<!-- Website template by freewebsitetemplates.com -->
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Blog - Food &amp; Recipes Web Template</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div class="header">
+		<div>
+			<a href="home.html"><img src="images/logo.png" alt="Logo"></a>
+		</div>
+		<form action="home.html">
+			<input type="text" placeholder="Nhập món ăn hoặc nguyên liệu" id="search">
+			<input type="submit" value="" id="searchbtn">
+		</form>
+	</div>
+	<div class="body">
+		<div>
+			<div class="header">
+				<ul>
+					<li>
+						<a href="home.html">Home</a>
+					</li>
+					<li>
+						<a href="recipes.html">Công thức A->Z</a>
+					</li>
+					<li>
+						<a href="featured.html">Công thức đặc sắc</a>
+					</li>
+					<li>
+						<a href="videos.html">Videos</a>
+					</li>
+					<li>
+						<a href="about.html">BXH</a>
+					</li>
+					<li class="current">
+						<a href="blog.html">Blog</a>
+					</li>
+				</ul>
+			</div>
+			<div class="body">
+				<div id="content">
+					<div class="nxet-blog">
+						<ul>
+							<h3 style="margin-left: 25px;">Nhận xét món gà ủ muối</h3>
+								<p> Món gà này rất ngon, phù hợp cho bữa tối hoặc bữa tiệc - By Long, June 21
+								</p>
+								<p> Các bạn cho mình hỏi làm sao để ướp gà vàng như trong hình ạ? - By Khánh, August 20
+								</p>
+								<p> ĂN RẤT NGON! - By Hiếu, October 26
+								</p>
+								
+							<a href="featured3.html"><img src="./images/ga-u-muoi-3.jpg" alt="Gà ủ muối" class="anh-mon-an"></a>	
+							<a href="featured3.html"><img src="./images/ga-u-muoi-4.jpg" alt="Gà ủ muối" class="anh-mon-an"></a>
+							<p>
+							Hãy để lại bình luận về món ăn này nếu bạn ưa thích! - admin
+							</p>
+							<div id="phan-hoi">
+								<input type="text" required class="comments" placeholder="Phản hồi của bạn">
+								<input type="submit" class="submit-button" value="Gửi">
+							</div>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div>
+			<div>
+				<h3>Cooking Video</h3>
+				<a href="videos.html"><img src="images/cooking-video.png" alt="Image"></a>
+				<span>Vegetable &amp; Rice Topping</span>
+			</div>
+			<div>
+				<h3>Featured Recipes</h3>
+				<ul id="featured">
+					<li>
+						<a href="recipes.html"><img src="./images/trung-ngon.jpg" alt="Trứng" class="anh-77"></a>
+						<div>
+							<h2><a href="recipes.html">Trứng luộc</a></h2>
+							<span>By: Linh</span>
+						</div>
+					</li>
+					<li>
+						<a href="recipes.html"><img src="./images/thit-kho-tau-1.webp" alt="Thịt" class="anh-77"></a>
+						<div>
+							<h2><a href="recipes.html">Thịt kho tàu</a></h2>
+							<span>By: Linh</span>
+						</div>
+					</li>
+					<li>
+						<a href="recipes.html"><img src="./images/ga-u-muoi-1.jpg" alt="Gà" class="anh-77"></a>
+						<div>
+							<h2><a href="recipes.html">Gà ủ muối</a></h2>
+							<span>by: Linh</span>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div>
+				<h3>Blog</h3>
+				<ul id="blog">
+					<li>
+						<a href="featured.html">Món bò nướng này thật tuyệt!</a>
+						<span class="date">3 tháng 3, by Hiếu</span>
+					</li>
+					<li>
+						<a href="featured4.html">Tôi là sinh viên năm nhất mà chưa biết nấu mì tôm trứng, thật cảm ơn web vì bài hướng dẫn tuyệt vời này</a>
+						<span class="date">15 tháng 10, by Lâm</span>
+					</li>
+					<li>
+						<a href="featured2.html">Nước của món thịt kho này tôi rưới vào húp vội cũng được 3 bát</a>
+						<span class="date">19 tháng 8, by Huy</span>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<div>
+			<p>
+				Eat the whole world!
+			</p>
+		</div>
+	</div>
+	<script>
+		const thongbaocomment=document.querySelector('.submit-button')
+		thongbaocomment.addEventListener('click', function(){
+			alert("Cảm ơn bạn đã đóng góp ý kiến về món ăn!")
+		})
+		 </script>
+</body>
+</html>
