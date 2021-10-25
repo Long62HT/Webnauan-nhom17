@@ -1,4 +1,4 @@
-/* Website template by freewebsitetemplates.com */
+
 body {
 	background: url(../images/bg-body.jpg) repeat;
 	color: #6c5b37;
@@ -59,7 +59,7 @@ div.header form input#search {
 	color: #707476;
 	float: left;
 	font-size: 14px;
-	height: 25px;
+	height: 25px;height: 4px;
 	line-height: 25px;
 	margin: 3px 0 0 10px;
 	padding: 0;
@@ -133,6 +133,7 @@ div.body div:first-child div.body div {
 }
 div.body div:first-child div.body div a img {
 	margin: 1px 1px 0 4px;
+	
 }
 div.body div:first-child div.body ul {
 	background: url(../images/interface.png) no-repeat center -57px;
@@ -243,6 +244,7 @@ div.body div:first-child div.footer ul li h2 a {
 div.body div:first-child div.footer ul li img {
 	border-bottom: 1px solid #fcda55; 
 	border-top: 1px solid #fcda55;
+	
 }
 div.body div:first-child div.footer ul li:first-child {
 	margin: 0;
@@ -264,6 +266,7 @@ div.body div div:first-child {
 }
 div.body div div:first-child img {
 	margin: 10px 0 0;
+	size: 100px;
 }
 div.body div div h3,
 div.body div div h4 {
@@ -697,4 +700,17 @@ div.body div div ul#blog li a:hover{
 .anh-77{
 	width: 77px;
 	height: 77px;
+}
+table, td, th {
+	border: 1px solid black;
+	
+  }
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+  }
+.anh-nho-home{
+	width: 60px;
+	height: 60px;
 }
